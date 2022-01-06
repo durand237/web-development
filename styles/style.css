@@ -1,0 +1,35 @@
+ html {
+  font-size: 10px; /* px bedeutet 'pixels': die Schriftgröße wird auf 10 Pixel gesetzt  */
+  font-family: Open Sans Condensed; /* hier kommt der Name der ausgewählten Schriftfamilie hin */
+}
+h1,h2 {
+	font-size: 60px;
+
+}
+p,h3 {
+	font-size: 40px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+html {
+  background-color: #FF9500;
+}
+a{
+	font-size: 20px;
+	color: blue;
+}
+a:hover{
+	color: darkblue;
+	font-size: 30px;
+
+}
+img {
+	position:  absolute;
+	top: 80px;
+	right:  200px;
+	height:  200px;
+	width: 200px;
+	
+  display: block;
+  margin: 0 auto;
+}
