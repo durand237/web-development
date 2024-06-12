@@ -1,5 +1,5 @@
 # web-develoopment
-ce site est un prtotype pour le site de MHS.
+This site is a prtotyte of the MHS site.
 to do 
 -design(how is it suppose to look)
     . Font Color(the color of MHS): Sky blue
