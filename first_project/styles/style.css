@@ -1,6 +1,8 @@
- html {
+html {
   font-size: 10px; /* px bedeutet 'pixels': die Schriftgröße wird auf 10 Pixel gesetzt  */
   font-family: Open Sans Condensed; /* hier kommt der Name der ausgewählten Schriftfamilie hin */
+  width: 100%;
+  height: 100%;
 }
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -42,9 +44,13 @@
 	font-size: 40px;
 	color: gray;
 	display: inline;
+  border: 1px solid red;
 }
+
 .main ul #slepp{
   margin-right: 30px;
+  text-decoration: underline;
+
 }
 .main ul #contact{
   margin-right: 30px;
@@ -70,18 +76,15 @@ p{
 	line-height: 2;
 	letter-spacing: 1px;
 }
-html {
-
-}
 a:hover{
 	color: darkblue;
 	font-size: 30px;
 
 }
-.container {
+.itachi {
+  display: flex;
   width: 20px;
   margin-top: 12px;
-  margin-left: 50px;
+  margin-left: 180px;
   background-color: antiquewhite;
-
 }
