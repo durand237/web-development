@@ -1,0 +1,6 @@
+this is an git ignore file
+
+*.DS_Strore
+*.vscode
+*.config
+*.idea
